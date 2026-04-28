@@ -1,0 +1,103 @@
+/* Configurações Gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    background-color: #f0f2f5;
+    color: #1c1e21;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Container Principal */
+.main-container {
+    max-width: 550px;
+    width: 100%;
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Estilo do Logotipo */
+.logo-img {
+    max-width: 150px; /* Tamanho levemente maior para logotipos */
+    height: auto;
+    margin-bottom: 20px;
+    /* Caso queira um efeito suave na borda da imagem: */
+    border-radius: 8px;
+}
+
+/* Tipografia */
+h1 {
+    color: #2c3e50;
+    font-size: 2.2rem;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.subtitle {
+    color: #7f8c8d;
+    font-size: 1.1rem;
+    font-style: italic;
+    margin-bottom: 35px;
+}
+
+/* Conteúdo */
+.content-box {
+    text-align: left;
+    border-top: 1px solid #ecf0f1;
+    padding-top: 25px;
+}
+
+h2 {
+    color: #e74c3c;
+    margin-bottom: 15px;
+}
+
+.features-list {
+    list-style: none;
+    margin: 20px 0;
+}
+
+.features-list li {
+    background: #fdfdfd;
+    margin-bottom: 10px;
+    padding: 12px;
+    border-left: 5px solid #2c3e50;
+    border-radius: 4px;
+}
+
+/* Botão */
+.btn-action {
+    display: block;
+    width: 100%;
+    padding: 14px;
+    background-color: #2c3e50;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.btn-action:hover {
+    background-color: #34495e;
+    transform: translateY(-2px);
+}
+
+footer {
+    margin-top: 40px;
+    font-size: 0.8rem;
+    color: #bdc3c7;
+}
